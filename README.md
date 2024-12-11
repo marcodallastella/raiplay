@@ -6,12 +6,13 @@ The project consists of two main components:
 
 - A web scraper that collects content titles from various RAIplay categories
 - An analysis tool that processes these titles to detect the presence of names and their gender
+- A clean notebook to remove duplicates (I realized later that contents can belong to more than one category)
 
 ## Features
 
 - Scrapes content titles from multiple RAIplay categories (Fiction, Film, Documentaries, etc.)
 - Analyzes titles for the presence of:
-  -  Female first names
+  - Female first names
   - Male first names
   - Last names
   - Complete female names
